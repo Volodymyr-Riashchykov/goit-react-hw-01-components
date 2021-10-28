@@ -1,0 +1,75 @@
+.profile {
+  width: 400px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 5px;
+  padding-top: 30px;
+  box-shadow: 1px 1px 1px 1px rgba(200, 200, 200, 0.8);
+  background-color: rgba(255, 255, 255, 0.8);
+}
+
+.avatar {
+  display: block;
+  width: 150px;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 50%;
+  background-color: rgba(126, 126, 126, 0.4);
+}
+
+.name {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 30px;
+  font-family: Roboto;
+  font-weight: 700;
+  font-size: 18px;
+}
+
+.tag {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 10px;
+  color: rgb(130, 130, 130);
+}
+.location {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: center;
+  padding-top: 10px;
+  padding-bottom: 30px;
+  color: rgb(130, 130, 130);
+  border-bottom: 1px solid rgb(130, 130, 130);
+}
+.stats {
+  display: flex;
+  justify-content: space-around;
+  background-color: rgba(150, 150, 150, 0.2);
+}
+
+.paragraph {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 33.3%;
+  padding-top: 10px;
+  padding-bottom: 10px;
+  border-right: 1px solid rgba(0, 0, 0, 0.2);
+}
+
+.paragraph:last-child {
+  border: none;
+}
+
+.label {
+  color: rgb(130, 130, 130);
+}
+
+.quantity {
+  font-weight: 700;
+}
