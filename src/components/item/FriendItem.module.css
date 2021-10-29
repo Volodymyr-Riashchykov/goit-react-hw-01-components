@@ -1,0 +1,36 @@
+.item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 1px 1px 1px 1px rgba(0, 0, 0, 0.5);
+}
+
+.general {
+  width: 20px;
+  height: 20px;
+  border-radius: 50%;
+}
+
+.green {
+  composes: general;
+  background-color: #00ff00;
+}
+
+.red {
+  composes: general;
+  background-color: #ff0000;
+}
+
+.avatar {
+  width: 70px;
+  margin: 0px 20px;
+  border-radius: 5px;
+  background-color: rgba(100, 100, 100, 0.3);
+}
+
+.name {
+  font-size: 30px;
+  color: rgba(0, 0, 0, 0.8);
+}
